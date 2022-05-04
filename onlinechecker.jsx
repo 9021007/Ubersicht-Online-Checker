@@ -1,4 +1,4 @@
-export const command = "echo Hello World!"
+export const command = "echo checking"
 
 export const refreshFrequency = 250 // ms
 
