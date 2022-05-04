@@ -20,8 +20,13 @@ setInterval(() => {
 export const render = ({ output }) => (
     <div id="checker"><h1>{status}</h1><style>
         {`
-        h1 {
+        #checker {
+            position: fixed;
+            margin-left: 20px;
+            margin-top: 335px;
             
+        }
+        #checker h1 {
             color: ${color};
             font-size: 30px;
             border: 0px solid #000;
@@ -29,12 +34,6 @@ export const render = ({ output }) => (
             background-color: #00000055;
             padding: 10px;
             font-family: 'Source Code Pro', monospace;
-        }
-        #checker {
-            position: fixed;
-            margin-left: 20px;
-            margin-top: 335px;
-        }
         `}
     </style></div>
 )
