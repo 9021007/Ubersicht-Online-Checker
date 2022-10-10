@@ -9,3 +9,5 @@ It uses [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) as the
 Simply drop the file into Übersicht's widgets folder.
 
 ![image](https://user-images.githubusercontent.com/24487638/167356644-6c5ad197-1822-43c8-b2fc-1a1bc4c56426.png)
+
+Not actively maintained
